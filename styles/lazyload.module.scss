@@ -1,0 +1,19 @@
+.secWrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.secTitle {
+    font-size: 30px;
+}
+
+.box {
+    background-color: lightgray;
+    width: 30%;
+    height: 250px;
+    margin: 20px 0;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
+}

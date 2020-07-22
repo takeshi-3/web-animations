@@ -1,0 +1,33 @@
+.wrapper {
+    // transition: all .5s ease;
+}
+
+.show {
+    animation: SlideIn-Up 1.0s;
+}
+
+.hide {
+    opacity: 0;
+}
+
+@keyframes SlideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-64px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes SlideIn-Up {
+    0% {
+        opacity: 0;
+        transform: translateY(32px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

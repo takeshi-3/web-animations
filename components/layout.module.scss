@@ -1,0 +1,21 @@
+/* -----------------------------------
+    styles for default page wrapper
+-------------------------------------- */
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 30px 30px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.backhome {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
